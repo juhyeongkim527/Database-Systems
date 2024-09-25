@@ -132,7 +132,7 @@ public:
             write_node_to_index_file(root);
         }
 
-        else // root node가 있는 경우 : 입력 받은 key, value를 가지는 leaf node 생성
+        else // root node가 있는 경우 : 입력 받은 key, value를 leaf node에 삽입
         {
             Node *leaf_node = single_key_search(key, false); // 입력 받은 key에 해당하는 leaf node 찾기
             int idx = leaf_node->find_key_index(key);        // 입력 받은 key의 인덱스 찾기
