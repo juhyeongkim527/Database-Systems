@@ -695,9 +695,9 @@ int main(int argc, char *argv[])
                 value = stoi(value_str);
 
                 /* debug */
-                cout << '\n'
-                     << "<insert key> : " << key << ", <value> : " << value << '\n'
-                     << '\n';
+                // cout << '\n'
+                //      << "<insert key> : " << key << ", <value> : " << value << '\n'
+                //      << '\n';
             }
 
             tree.insert(key, value);
